@@ -1,0 +1,89 @@
+CHROME WEB STORE LISTING - Website Attention Cleaner
+
+=== BASIC INFORMATION ===
+Name: Website Attention Cleaner
+Category: Productivity
+Language: English
+
+=== SHORT DESCRIPTION (132 characters max) ===
+Remove distracting elements from websites to help you focus on what matters. Works on YouTube, Reddit, Twitter, and more.
+
+=== DETAILED DESCRIPTION ===
+Stay focused and productive by removing distracting elements from your favorite websites.
+
+Website Attention Cleaner intelligently removes ads, recommendations, sidebars, shorts, and other distractions so you can focus on the content that matters to you.
+
+?? KEY FEATURES:
+• One-click Focus Mode toggle
+• Customizable cleaning options (choose what to hide)
+• Statistics dashboard to track your productivity
+• Reading Mode for better text readability
+• Temporary focus sessions (15/30/60 minutes)
+• Keyboard shortcut (Ctrl+Shift+F) for quick toggling
+• Per-site preferences that sync across devices
+
+?? SUPPORTED WEBSITES:
+• YouTube - Hide shorts, recommendations, comments, ads
+• Reddit - Remove sidebar, trending posts, promoted content
+• Twitter/X - Hide trending sidebar, promoted tweets
+• Instagram - Remove suggested posts, sponsored content
+• Facebook - Hide suggested posts, stories, ads
+• LinkedIn - Remove ads, recommendations, sidebar
+• TikTok - Hide recommendations, ads
+• Medium - Remove popups, claps, "More stories"
+• News sites - Generic cleaning for ads, sidebars, popups
+
+?? PRODUCTIVITY TRACKING:
+• Total time spent in focus mode
+• Number of distractions blocked
+• Sessions completed
+• Average session insights
+
+?? PRIVACY FIRST:
+• No data collection
+• No tracking or analytics
+• Everything stored locally on your device
+• Open source and transparent
+
+Perfect for students, professionals, writers, researchers, or anyone who wants to minimize distractions and maximize productivity online.
+
+=== PERMISSION JUSTIFICATIONS ===
+storage: Save your cleaning preferences and productivity statistics locally
+activeTab: Apply cleaning rules to the website you're currently viewing
+scripting: Inject content scripts to remove distracting elements from web pages
+
+=== PRIVACY POLICY URL ===
+Include the content from PRIVACY.md file or host it at: [Your website URL]/privacy
+
+=== SUPPORT/HOMEPAGE URL ===
+[Your GitHub repository or website]
+
+=== PROMOTIONAL IMAGES NEEDED ===
+1. Small Promotional Tile: 440x280 pixels
+2. Large Promotional Tile: 920x680 pixels (optional)
+3. Marquee Promotional Tile: 1400x560 pixels (optional)
+4. Screenshots: At least 1 required, 1280x800 or 640x400 pixels
+
+Screenshot Suggestions:
+- Extension popup showing Focus Mode toggle and settings
+- Statistics dashboard with sample data
+- Before/after comparison of YouTube with cleaning active
+- Before/after comparison of Reddit with cleaning active
+- Reading mode demonstration
+
+=== VERSION HISTORY ===
+Version 1.0 - Initial Release
+- Focus mode toggle
+- 6+ popular sites supported
+- Statistics dashboard
+- Reading mode
+- Temporary focus sessions
+- Keyboard shortcuts
+
+=== TAGS/KEYWORDS ===
+focus, productivity, distraction blocker, ad blocker, youtube cleaner, reddit cleaner, reading mode, minimize distractions, study tool, work from home
+
+=== DEVELOPER INFO ===
+Developer Name: [Your Name]
+Email: [Your Email]
+Website: [Your Website]

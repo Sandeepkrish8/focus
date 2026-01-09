@@ -1,0 +1,93 @@
+PUBLISHING CHECKLIST FOR CHROME WEB STORE
+==========================================
+
+BEFORE YOU PUBLISH:
+------------------
+[ ] Test extension on all supported sites (YouTube, Reddit, Twitter, Instagram, Facebook, LinkedIn, TikTok, Medium)
+[ ] Test Focus Mode toggle works correctly
+[ ] Test Statistics tracking is accurate
+[ ] Test Reading Mode on various sites
+[ ] Test Temporary clean timer functionality
+[ ] Test keyboard shortcut (Ctrl+Shift+F)
+[ ] Check for console errors (F12 Developer Tools)
+[ ] Verify all icons display correctly
+[ ] Review PRIVACY.md and update [Your Email] placeholder
+[ ] Review STORE_LISTING.txt and update placeholders
+
+REQUIRED FILES (READY):
+----------------------
+[?] manifest.json
+[?] Icons (icon16.png, icon48.png, icon128.png)
+[?] popup.html, popup.js, styles.css
+[?] content.js
+[?] background.js
+[?] README.md
+[?] PRIVACY.md
+[?] ZIP package: c:\Users\CYBER-PC\website-attention-cleaner.zip
+
+CHROME WEB STORE REQUIREMENTS:
+------------------------------
+[ ] Google account
+[ ]  USD one-time developer registration fee
+[ ] Privacy policy (PRIVACY.md is ready - just add your contact email)
+[ ] At least 1 screenshot (1280x800 or 640x400)
+[ ] Store listing description (see STORE_LISTING.txt)
+
+SCREENSHOTS TO CREATE:
+---------------------
+Create these screenshots for the store listing:
+
+1. Extension Popup
+   - Open extension on any website
+   - Show Settings tab with Focus Mode ON
+   - Screenshot size: 1280x800 or 640x400
+
+2. Statistics Dashboard
+   - Click Statistics tab
+   - Show sample data
+   - Screenshot size: 1280x800 or 640x400
+
+3. Before/After YouTube
+   - Split screen showing YouTube with/without cleaning
+   - Screenshot size: 1280x800 or 640x400
+
+4. Before/After Reddit (optional)
+   - Split screen showing Reddit with/without cleaning
+   - Screenshot size: 1280x800 or 640x400
+
+HOW TO TAKE SCREENSHOTS:
+------------------------
+1. Press Windows + Shift + S
+2. Select area
+3. Open Paint or image editor
+4. Paste and resize to 1280x800 or 640x400
+5. Save as PNG
+
+PUBLISHING STEPS:
+----------------
+1. Go to: https://chrome.google.com/webstore/devconsole
+2. Sign in with Google account
+3. Pay  registration fee (if not already registered)
+4. Click "New Item"
+5. Upload: c:\Users\CYBER-PC\website-attention-cleaner.zip
+6. Fill in store listing (use content from STORE_LISTING.txt)
+7. Upload screenshots
+8. Add privacy policy content (from PRIVACY.md)
+9. Submit for review
+10. Wait 1-3 days for Google approval
+
+AFTER PUBLISHING:
+----------------
+[ ] Share extension link with friends/social media
+[ ] Add extension link to your resume/portfolio
+[ ] Update README.md with Chrome Web Store link
+[ ] Consider creating GitHub repository for open source version
+
+NOTES:
+------
+- ZIP file location: c:\Users\CYBER-PC\website-attention-cleaner.zip
+- Extension is ready to upload!
+- Don't forget to update [Your Email] in PRIVACY.md before publishing
+- Don't forget to update placeholders in STORE_LISTING.txt
+
+GOOD LUCK! ??

@@ -1,0 +1,58 @@
+{
+  "manifest_version": 3,
+  "name": "Website Attention Cleaner",
+  "version": "1.0",
+  "description": "Remove distracting elements from websites to help you focus on what matters",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://www.youtube.com/*",
+    "https://youtube.com/*",
+    "https://medium.com/*",
+    "https://*.medium.com/*",
+    "https://www.reddit.com/*",
+    "https://reddit.com/*",
+    "https://twitter.com/*",
+    "https://x.com/*",
+    "https://www.instagram.com/*",
+    "https://www.facebook.com/*",
+    "https://www.linkedin.com/*",
+    "https://www.tiktok.com/*",
+    "https://*/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/target.png",
+      "48": "icons/target1.png",
+      "128": "icons/focused.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*/*", "http://*/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "commands": {
+    "toggle-focus": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+F",
+        "mac": "Command+Shift+F"
+      },
+      "description": "Toggle focus mode"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
